@@ -26,15 +26,7 @@ driver.find_element("xpath","/html/body/section[1]/div[2]/div/div/div/div[3]/div
 time.sleep(5)
 driver.find_element("xpath","/html/body/section[1]/div[2]/div/div/div/button").click()
 
-cars = driver.find_elements("xpath","//div[contains(@class,'js-results')]//h2")
-car_names = [car.get_attribute("textContent") for car in cars]
-for name in car_names:
-    print("Car name: " + name)
 
-prices = driver.find_elements("xpath","//div[contains(@class,'js-results')]//span[contains(@class,'f1')]")
-price_values = [price.get_attribute("textContent") for price in prices]
-for price in price_values:
-    print("Price is " + price)
 
 
 
