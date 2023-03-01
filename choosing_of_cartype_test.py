@@ -26,6 +26,7 @@ driver.find_element("xpath","/html/body/section[1]/div[2]/div/div/div/div[3]/div
 time.sleep(6)
 driver.find_element("xpath","/html/body/section[1]/div[2]/div/div/div/button").click()
 
-driver.find_element("xpath","/html/body/div[4]/div/div/div[2]/div/div[1]/div/div[1]/button").click()
-driver.find_element("xpath","/html/body/div[4]/div/div/div[2]/div/div[1]/div/div[1]/div/div[2]/div/div[2]/div/div[9]/span").click()
-driver.find_element("xpath","/html/body/div[4]/div/div/div[2]/div/div[1]/div/div[1]/div/div[2]/div/div[3]/div/div/button").click()
+driver.find_element("xpath","//h2[text()='Citroën C3 Aircross']").click()
+
+time.sleep(5)
+
