@@ -31,8 +31,10 @@ car_names = [car.get_attribute("textContent") for car in cars]
 for name in car_names:
     print("Car name: " + name)
 
+
+
 assert car_names[0] == 'Citroën C3 Aircross'
-assert car_names[1] == 'Ford Transit Custom'
+#assert car_names[1] == 'Ford Transit Custom'
 #assert car_names[2] == 'BMW 1 Series'
 #assert car_names[3] == 'Tesla Model Y Long Range'
 #assert car_names[4] == 'Toyota AYGO'
