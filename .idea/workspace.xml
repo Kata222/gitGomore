@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee771810-5066-435d-b620-20d66e449302" name="Changes" comment="Prices test">
-      <change afterPath="$PROJECT_DIR$/choosing_of_cartype_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/print_prices_list_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/print_prices_list_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +46,7 @@
       <recent name="C:\Users\Dator\Desktop\GitRepo\gitGomore\drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.choosing_of_cartype_test">
+  <component name="RunManager" selected="Python.print_prices_list_test">
     <configuration name="choosing_of_cartype_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitGomore" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="correctness_of_cars_names_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="print_cars_list_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="gitGomore" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -76,11 +76,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/correctness_of_cars_names_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/print_cars_list_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +101,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Dator\Desktop\GitRepo\gitGomore\print_prices_list_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/print_prices_list_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.choosing_of_cartype_test" />
-        <item itemvalue="Python.correctness_of_cars_names_test" />
-        <item itemvalue="Python.search_date_test" />
         <item itemvalue="Python.print_prices_list_test" />
+        <item itemvalue="Python.print_cars_list_test" />
+        <item itemvalue="Python.search_date_test" />
         <item itemvalue="Python.search_city_test" />
+        <item itemvalue="Python.choosing_of_cartype_test" />
       </list>
     </recent_temporary>
   </component>

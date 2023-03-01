@@ -29,4 +29,4 @@ driver.find_element("xpath","/html/body/section[1]/div[2]/div/div/div/button").c
 prices = driver.find_elements("xpath","//div[contains(@class,'js-results')]//span[contains(@class,'f1')]")
 price_values = [price.get_attribute("textContent") for price in prices]
 for price in price_values:
-    print("Price is " + price)
+    print("Price is " + price + " SEK")
