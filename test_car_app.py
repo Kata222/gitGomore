@@ -95,3 +95,4 @@ def test_choose_car_type(setup_driver):
 
     expected_title = "Biltyp"
     assert window_title == expected_title
+
