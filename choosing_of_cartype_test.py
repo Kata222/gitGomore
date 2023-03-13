@@ -28,5 +28,5 @@ driver.find_element("xpath","/html/body/section[1]/div[2]/div/div/div/button").c
 
 driver.find_element("xpath","//h2[text()='Citroën C3 Aircross']").click()
 
-time.sleep(5)
+
 
