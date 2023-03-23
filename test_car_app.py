@@ -96,3 +96,36 @@ def test_choose_car_type(setup_driver):
     expected_title = "Biltyp"
     assert window_title == expected_title
 
+def test_choose_gearbox(setup_driver):
+    driver = setup_driver
+    test_check_search_results(driver)
+
+    car_type_button = WebDriverWait(driver, 10).until(
+        EC.visibility_of_element_located((By.XPATH, "/html/body/div[4]/div/div/div[2]/div/div[1]/div/div[2]/button"))
+    )
+    car_type_button.click()
+
+    window_title = WebDriverWait(driver, 30).until(
+        EC.visibility_of_element_located(
+            (By.XPATH, "/html/body/div[4]/div/div/div[2]/div/div[1]/div/div[2]/div/div[2]/div/div[1]/div/h3"))
+    ).text
+
+    expected_title = "Växellåda"
+    assert window_title == expected_title
+
+def test_create_profile(setup_driver):
+    driver = setup_driver
+    test_check_search_results(driver)
+
+    car_type_button = WebDriverWait(driver, 10).until(
+        EC.visibility_of_element_located((By.XPATH, "/html/body/div[3]/nav/div[2]/a[3]/span"))
+    )
+    car_type_button.click()
+
+    window_title = WebDriverWait(driver, 30).until(
+        EC.visibility_of_element_located(
+            (By.XPATH, "/html/body/div[2]/div[2]/div/div/div[1]/h1"))
+    ).text
+
+    expected_title = "Upprätta profil på GoMore"
+    assert window_title == expected_title
